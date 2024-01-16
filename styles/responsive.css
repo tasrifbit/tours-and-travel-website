@@ -25,9 +25,13 @@
 
 
     }
+    .nav-logo{
+        margin: 20px;
+    }
 
     .banner {
         flex-direction: column;
+        margin: 20px;
     }
 
     .banner-container h1 {
@@ -54,8 +58,9 @@
     }
 
     .populer-tours {
-        width: 100%;
+        width: 80%;
         height: min-content;
+        margin: 20px;
     }
 
     .populer-tours h1 {
@@ -76,6 +81,9 @@
         flex-direction: column;
         width: 100px;
         height: 342px;
+    }
+    .img-side{
+        margin: 20px;
     }
 
     .img-2 {
@@ -100,7 +108,7 @@
     }
 
     .grid-gallery {
-        margin-left: -2px;
+        margin: 20px
     }
 
     .five {
@@ -120,18 +128,26 @@
 
     .big-box {
         flex-direction: column;
+        margin: 20px;
     }
 
-    .box-1,
+    .box-1 {
+        width: 335px;
+        height: 250px;
+        padding: 20px;
+    }
+
     .box-2 {
         width: 335px;
-        height: 289px;
+        height: 250px;
+        padding: 20px;
     }
 
     .box-3 {
         width: 335px;
-        height: 289px;
-        margin-left: 0px;
+        height: 250px;
+        margin: 20px;
+        padding: 20px;
     }
 
 
