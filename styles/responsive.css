@@ -132,19 +132,28 @@
     }
 
     .box-1 {
-        width: 335px;
+        width: 310px;
         height: 250px;
         padding: 20px;
+    }
+
+    .head-title {
+        font-size: 18px;
+    }
+
+    .para{
+        font-size: 14px;
     }
 
     .box-2 {
-        width: 335px;
+        width: 310px;
         height: 250px;
         padding: 20px;
+        
     }
 
     .box-3 {
-        width: 335px;
+        width: 310px;
         height: 250px;
         margin: 20px;
         padding: 20px;
