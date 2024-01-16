@@ -8,17 +8,22 @@
     label {
         display: inline-flex;
         margin-top: 7px;
+        margin-right: -180px;
     }
 
     .nav-logo p {
-        font-size: 10px;
-        width: 600px;
+        font-size: 15px;
+        width: 400px;
+        margin-top: 1.35px;
+        
     }
 
     .nav-logo img {
         width: 20px;
         height: 20px;
-        margin-top: 7px;
+        margin-top: -1px;
+
+        
     }
 
     .banner {
@@ -39,12 +44,13 @@
         flex-direction: column;
         row-gap: 10px;
         margin: 50px 50px;
+        margin-top: -5px;
 
     }
 
     .main-1 {
         flex-direction: column;
-        margin-top: -15px;
+        margin-top: -5px;
     }
 
     .populer-tours {
@@ -70,6 +76,27 @@
         flex-direction: column;
         width: 100px;
         height: 342px;
+    }
+    .img-2{
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+        border-radius: 16px;
+    }
+    .destination-title p{
+        margin: 5px;
+        font-size: 15px;
+    }
+    .destination-title h1{
+        font-size: 20px;
+    }
+    .row{
+        flex-direction: column;
+        
+    }
+
+    .grid-gallery{
+        margin-left: -2px;
     }
 
 

@@ -191,9 +191,43 @@ li {
   border: none;
 }
 
-.tour_img, img {
+.img-2 {
   width: 540px;
   height: 550px;
-  display: none;
-  
+}
+
+.grid-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.grid-gallery {
+  margin-top: 50px;
+  margin-left: 3%;
+}
+
+.destination-title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.destination-title h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.destination-title p {
+  margin: 0 300px;
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  gap: 30px;
 }
