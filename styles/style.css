@@ -7,10 +7,15 @@
 
 }
 
-header {
+body {
   max-width: 1250px;
   margin: 0 auto;
 }
+
+/* header {
+  max-width: 1250px;
+  margin: 0 auto;
+} */
 
 .nav-logo {
   display: flex;
@@ -230,4 +235,70 @@ li {
   gap: 10px;
   margin-bottom: 20px;
   gap: 30px;
+}
+
+/* Choose section */
+.choose-title {
+  text-align: center;
+}
+
+.choose-title h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+
+.choose-title p {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px 300px;
+  
+}
+
+.head-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.para {
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.big-box {
+  display: flex;
+  gap: 15px;
+}
+
+.box-1 {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 30px 30px 0 50px;
+}
+
+.box-2 {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 30px 30px 0 50px;
+}
+
+.box-3 {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 30px 30px 0 50px;
+  margin: 20px 300px;
 }

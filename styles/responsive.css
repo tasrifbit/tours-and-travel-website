@@ -8,14 +8,14 @@
     label {
         display: inline-flex;
         margin-top: 7px;
-        margin-right: -180px;
+        margin-right: -160px;
     }
 
     .nav-logo p {
         font-size: 15px;
         width: 400px;
         margin-top: 1.35px;
-        
+
     }
 
     .nav-logo img {
@@ -23,7 +23,7 @@
         height: 20px;
         margin-top: -1px;
 
-        
+
     }
 
     .banner {
@@ -77,27 +77,63 @@
         width: 100px;
         height: 342px;
     }
-    .img-2{
+
+    .img-2 {
         width: 100%;
         height: 200px;
         margin-top: 20px;
         border-radius: 16px;
     }
-    .destination-title p{
+
+    .destination-title p {
         margin: 5px;
         font-size: 15px;
     }
-    .destination-title h1{
+
+    .destination-title h1 {
         font-size: 20px;
     }
-    .row{
+
+    .row {
         flex-direction: column;
-        
+
     }
 
-    .grid-gallery{
+    .grid-gallery {
         margin-left: -2px;
     }
+
+    .five {
+        height: 200px;
+        border-radius: 16px;
+    }
+
+    .choose-title h1 {
+        font-size: 20px;
+    }
+
+    .choose-title p {
+        margin: 5px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .big-box {
+        flex-direction: column;
+    }
+
+    .box-1,
+    .box-2 {
+        width: 335px;
+        height: 289px;
+    }
+
+    .box-3 {
+        width: 335px;
+        height: 289px;
+        margin-left: 0px;
+    }
+
 
 
 
