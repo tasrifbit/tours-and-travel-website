@@ -25,7 +25,8 @@
 
 
     }
-    .nav-logo{
+
+    .nav-logo {
         margin: 20px;
     }
 
@@ -82,7 +83,8 @@
         width: 100px;
         height: 342px;
     }
-    .img-side{
+
+    .img-side {
         margin: 20px;
     }
 
@@ -141,7 +143,7 @@
         font-size: 18px;
     }
 
-    .para{
+    .para {
         font-size: 14px;
     }
 
@@ -149,7 +151,7 @@
         width: 87%;
         height: 250px;
         padding: 20px;
-        
+
     }
 
     .box-3 {
@@ -159,23 +161,26 @@
         padding: 20px;
     }
 
-    .product-content{
+    .product-content {
         flex-direction: column;
     }
-    .content{
+
+    .content {
         width: 80%;
         padding: 5px;
     }
 
-    .content img{
+    .content img {
         width: 100%;
         border-radius: 20px;
     }
+
     .content p {
         font-size: 15px;
 
     }
-    .content h3{
+
+    .content h3 {
         font-size: 20px;
     }
 
@@ -183,53 +188,62 @@
         margin-right: 20px;
     }
 
-    .head-2{
+    .head-2 {
         margin: 20px;
         font-size: 20px;
     }
-    .read{
+
+    .read {
         width: auto;
         padding: 10px;
         font-size: 12px;
     }
-    .see-content{
+
+    .see-content {
         flex-direction: column;
         margin: 20px;
     }
-    video{
+
+    video {
         width: 90%;
     }
-    .last-sec{
+
+    .last-sec {
         flex-direction: column;
         width: 100%;
 
     }
-    .news-letter{
+
+    .news-letter {
         margin: 20px;
-        width: 320px;
+        width: 310px;
         height: 320px;
         padding: 10px;
     }
-    .input-news input{
+
+    .input-news input {
         width: 50%;
-      }
-    .discount{
+    }
+
+    .discount {
         margin: 20px;
     }
 
-    .discount img{
+    .discount img {
         width: 100%;
         height: auto
-        
     }
-    .percent{
+
+    .percent {
         left: 145px;
 
     }
-    .news-letter hr{
+
+    .news-letter hr {
         display: none;
     }
-    .subscribe{
+
+    .subscribe {
         width: 30%;
         height: 20px;
         margin-bottom: 30px;
@@ -237,19 +251,129 @@
 
     }
 
-    .footer{
+    .footer {
         width: 100%;
         height: 100%;
         margin: 30px;
         margin-left: -5px;
-    
+
     }
 
-    .des-foot{
+    .des-foot {
         margin: 0;
     }
 
 
+
+
+}
+
+/* For 900px */
+@media screen and (min-width: 900px) {
+    .banner {
+        margin: 20px;
+    }
+
+    .search-btn {
+        font-size: 10px;
+        width: 100px;
+        height: 50%;
+    }
+
+    .input-items input {
+        width: 80%;
+        height: 50%;
+    }
+
+    ::placeholder {
+        font-size: 10px;
+
+    }
+
+
+    .populer-tours p,
+    li {
+        margin: 5px;
+        font-size: 10px;
+    }
+
+    .main-1 {
+        margin: 20px;
+    }
+
+    .destination-title p {
+        margin: 5px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .choose-title p {
+        margin: 10px;
+
+    }
+
+    .big-box {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .box-3 {
+        margin: 20px;
+        margin-left: 15px;
+        margin-right: 50px;
+    }
+
+    .product-content {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 50%;
+    }
+
+    .content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .head-2 {
+        margin: 10px;
+    }
+
+    .see-more-section p {
+        margin: 20px;
+        font-size: 10px;
+    }
+
+    .see-more-section li {
+        margin: 0;
+        font-size: 10px;
+
+    }
+
+    video {
+        width: 400px;
+        margin: 20px;
+    }
+
+
+    .read {
+        width: 50%;
+        margin: 20px;
+    }
+
+    .last-sec {
+        align-items: center;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .footer{
+        width: 890px;
+        margin-left: -10px;
+    }
 
 
 }
