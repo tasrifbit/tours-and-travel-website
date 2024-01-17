@@ -8,7 +8,7 @@
     label {
         display: inline-flex;
         margin-top: 7px;
-        margin-right: -160px;
+        margin-right: -140px;
     }
 
     .nav-logo p {
@@ -157,6 +157,30 @@
         height: 250px;
         margin: 20px;
         padding: 20px;
+    }
+
+    .product-content{
+        flex-direction: column;
+    }
+    .content{
+        width: 80%;
+        padding: 5px;
+    }
+
+    .content img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    .content p {
+        font-size: 15px;
+
+    }
+    .content h3{
+        font-size: 20px;
+    }
+
+    .content ul {
+        margin-right: 20px;
     }
 
 
