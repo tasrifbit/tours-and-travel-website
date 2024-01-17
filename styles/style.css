@@ -572,10 +572,11 @@ video {
   height: 80px;
   border-radius: 16px;
   transform: rotate(-19.628deg);
+  
 }
 
 .percent p {
-  padding-top: 30px;
+  padding-top: 20px;
   color: #FFF;
   text-align: center;
   font-size: 15px;
@@ -595,7 +596,7 @@ video {
 
 
 .percent h5 {
-  margin-top: -20px;
+  margin-top: -5px;
   color: #FFF;
   font-size: 20px;
   font-weight: 800;
