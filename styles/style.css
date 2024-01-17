@@ -500,7 +500,7 @@ video {
   display: flex;
   max-width: 1250px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .news-letter {
@@ -607,7 +607,7 @@ video {
 .footer {
   width: 1480px;
   height: 400px;
-  margin-left: -110px;
+  margin-left: -115px;
   background: rgba(19, 19, 24, 0.05);
   padding-top: 100px;
 }
