@@ -236,8 +236,14 @@
     }
 
     .percent {
+        width: 50%;
         left: 145px;
+        bottom: 10px;
 
+    }
+
+    .percent p {
+        padding: 20px;
     }
 
     .news-letter hr {
@@ -245,6 +251,9 @@
     }
     .news-letter p{
         margin: 5px;
+    }
+    .news-letter h3 {
+        padding-left: 10px;
     }
 
     .subscribe {
@@ -259,12 +268,13 @@
         width: 100%;
         height: 100%;
         margin: 30px;
-        margin-left: -5px;
+        margin-left: -4px;
 
     }
 
     .des-foot {
         margin: 0;
+        padding: 10px;
     }
 
 
